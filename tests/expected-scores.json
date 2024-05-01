@@ -1,0 +1,54 @@
+{
+  "video-screenshot-1712508660281.png": {"lives": 2},
+  "video-screenshot-1712838262344.png": {"lives": 0},
+  "video-screenshot-1712840853084.png": {"lives": 3},
+  "video-screenshot-1712840894128.png": {"lives": 2},
+  "video-screenshot-1713558722949.png": {"lives": 2},
+  "#video-screenshot-1713643782390.png": {"lives": 2},
+
+  "video-screenshot-1712148544025.png": {"guesses": 5, "hasWon": true},
+  "video-screenshot-1713558770719.png": {"guesses": 6, "hasWon": true},
+
+  "video-screenshot-1707826042798.png": {"time": 218},
+  "video-screenshot-1707826059512.png": {"time": 228},
+  "video-screenshot-1707826086800.png": {"time": 266},
+  "video-screenshot-1707826129139.png": {"time": 289},
+  "video-screenshot-1712838468633.png": {"time": 22},
+
+  "video-screenshot-1707826118326.png": {"time": 288, "hasWon": true},
+
+  "video-screenshot-1707826508158.png": {"guesses": 4},
+  "video-screenshot-1707826520589.png": {"guesses": 5},
+  "video-screenshot-1713559186845.png": {"guesses": 1},
+  "video-screenshot-1713559193356.png": {"guesses": 5},
+
+  "video-screenshot-1713559198895.png": {"guesses": 9, "hasWon": true},
+
+  "todo: timeguessr here": null,
+
+  "video-screenshot-1707826201821.png": {"guesses": 0},
+  "video-screenshot-1712104293106.png": {"guesses": 0},
+  "video-screenshot-1712104408735.png": {"guesses": 0},
+  "video-screenshot-1712104414887.png": {"guesses": 0},
+  "video-screenshot-1714053452871.png": {"guesses": 4},
+  "video-screenshot-1714053650557.png": {"guesses": 4},
+
+  "video-screenshot-1707826291297.png": {"guesses": 6, "hasWon": false},
+  "video-screenshot-1713558835206.png": {"guesses": 3, "hasWon": true},
+
+  "video-screenshot-1707826464128.png": {"guesses": 1},
+  "video-screenshot-1712351519679.png": {"guesses": 3},
+  "video-screenshot-1713559132090.png": {"guesses": 3},
+  "//video-screenshot-1713559147321.png": {"guesses": 4},
+
+  "video-screenshot-1712351827978.png": {"guesses": 3},
+  "video-screenshot-1713468554008.png": {"guesses": 2},
+  "video-screenshot-1714053364156.png": {"guesses": 15, "hasWon": false},
+
+  "video-screenshot-1707826315849.png": {"guesses": 3},
+  "video-screenshot-1707826393008.png": {"guesses": 12},
+
+  "video-screenshot-1712365532526.png": {"guesses": 3},
+  "video-screenshot-1712365544044.png": {"guesses": 3},
+  "video-screenshot-1713558591274.png": {"guesses": 0}
+}

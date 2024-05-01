@@ -1,0 +1,9 @@
+.venv
+node_modules
+temp
+.postgres
+
+*.traineddata
+Dockerfile
+.gitignore
+*.tar

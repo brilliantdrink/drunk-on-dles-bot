@@ -1,0 +1,47 @@
+{
+  "name": "drunk-on-dles-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --import tsx src/main.ts",
+    "start:managed": "pm2 start ecosystem.config.cjs",
+    "stop:managed": "pm2 stop ecosystem.config.cjs",
+    "logs:managed": "pm2 logs --timestamp --lines 140",
+    "single": "noDB=1 tsx src/single.ts",
+    "export": "docker build -t drink/drunk-on-dles-bot . && docker save drink/drunk-on-dles-bot > drink:drunk-on-dles-bot.tar",
+    "test": "noDB=1 node --import tsx --test **/*.test.ts",
+    "test:detect": "noDB=1 node --import tsx --test tests/detect.test.ts",
+    "test:score": "noDB=1 node --import tsx --test tests/score.test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@inquirer/input": "^2.1.2",
+    "chalk": "^5.3.0",
+    "chart.js": "^3.9.1",
+    "chartjs-node-canvas": "^4.1.6",
+    "chartjs-plugin-datalabels": "^2.2.0",
+    "cli-progress": "^3.12.0",
+    "color": "^4.2.3",
+    "dotenv": "^16.4.2",
+    "pg": "^8.11.3",
+    "pg-hstore": "^2.3.4",
+    "pm2": "^5.3.1",
+    "sequelize": "^6.37.0",
+    "sequelize-mock": "^0.10.2",
+    "sharp": "^0.33.2",
+    "terminal-image": "^2.0.0",
+    "tmi.js": "^1.8.5",
+    "tsx": "^4.7.1"
+  },
+  "devDependencies": {
+    "@types/cli-progress": "^3.11.5",
+    "@types/color": "^3.0.6",
+    "@types/node": "^20.11.16",
+    "@types/tmi.js": "^1.8.6",
+    "@types/ws": "^8.5.10"
+  }
+}

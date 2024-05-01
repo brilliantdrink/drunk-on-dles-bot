@@ -1,0 +1,10 @@
+.env
+.twitch_credentials
+*.traineddata
+*.pb
+.venv
+.postgres
+temp
+*.tar
+detect-perf.json
+*.pyc
